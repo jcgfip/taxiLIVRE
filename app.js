@@ -23,7 +23,7 @@ app.get('', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.render('about', {text: 'This is About page'})
+    res.render('about', {text: 'Fumaça Instrumentos de Precisão'})
 })
 
 
